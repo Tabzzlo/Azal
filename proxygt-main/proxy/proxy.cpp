@@ -8,7 +8,6 @@
 #include "server.h"
 server* g_server = new server();
 using namespace std;
-BOOL WINAPI HandlerRoutine(DWORD dwCtrlType)
 {
     print::set_text("\nFixing Hosts File!", LightGreen);
 
