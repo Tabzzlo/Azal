@@ -10,7 +10,7 @@
 #include <stdio.h> /* printf, NULL */ 
 #include <stdlib.h> /* srand, rand */ 
 #include <time.h> /* time */
-#include <curl/curl.h">
+#include <curl/curl.h>
 
 bool events::out::variantlist(gameupdatepacket_t* packet) {
     variantlist_t varlist{};
